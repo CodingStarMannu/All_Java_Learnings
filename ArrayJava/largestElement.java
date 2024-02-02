@@ -47,10 +47,10 @@ public class largestElement {
 //		        System.out.println(arr[0]);
 //		    }
 	
-	   public static void change(int input[]){
+	   public static int change(int input[]){
 		    input = new int[5];
-		    input[0] = 15;
-  		    System.out.println(input[0]);
+//		    input[0] = 15;
+  		   return input[0];
 		    }
 
 		    public static void main(String args[]){
